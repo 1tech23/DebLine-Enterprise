@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+</head>
+<body>
+<div class="tab" style="text-align:center">
+  <button class="tablinks" onclick="openUs(event, 'WhoWeAre')"><center>Who We Are</center></button>
+  <button class="tablinks" onclick="openUs(event, 'Stuff')">Computer Stuff</button>
+<button class="tablinks" onclick="openUs(event,'theFounder')">About The Founder</button>
+<button class="tablinks" onClick="openUs(event,'Services')">Services</button>
+<button class="tablinks" onClick="openUs(event,'Contact')">Contact Us</button>
+<button class="tablinks" onClick="openUs(event,'Systems')">About WADCS and MSC</button>
+</div>
+<div id="Systems" class='tabcontent'>
+  <h3>WADCS and MSC</h3>
+  <p>WADCS is the connection system for DebLine OS. MSC is the processing center for the broadband.</p>
+  <a rel="page4" type="text/html" href="page4.html">Click here for more information.</a>
+  <p>-----------------------------------------</p>
+</div>
+<div id="Contact" class="tabcontent">
+  <h3>Contact Us</h3>
+  <p>Logan's Contact Information: +1 (307) 679-1893</p>
+  <p>Logan's Address: 300 19th Street, Evanston, Wyoming, 82930</p>
+  <p>-----------------------------------------</p>
+</div>
+<div id="Services" class="tabcontent">
+  <h3>Services</h3>
+  <p>$15.00 for a complete installation of DebLine OS onto your device.</p>
+  <p>$15.00 an hour for repairs and upgrades.</p>
+  <p>-----------------------------------------</p>
+</div>
+
+
+<div id="theFounder" class="tabcontent">
+  <h3>About The Founder</h3>
+  <p>The Founder's name is Logan Alldredge. He was sixteen years old when he started the devlopment of DebLine OS.</p>
+  <p>Click on the following link to see more.</p>
+  <a rel="page3" type="text/html" href="page3.html">Click Here</a>
+  <p>-----------------------------------------</p>
+  </div>
+<div id="WhoWeAre" class="tabcontent">
+  <h3>Who We Are</h3>
+  <p>DebLine Industries is known for it's creation of the phenominal data transfer system (DTS), known as HighLight. HighLight DTS 1 uses what is called a quantum supersystem to simultaneously send and recieve data to and from individual systems. It is a satellite, as such technology would overheat if it were centered on Earth, rather than in the cold vacuum of space. It's command station is a computer that utilizes a system called DebLine OS.</p>
+  <p>DebLine OS is a Linux-based computer system that utilizes both software and graphics. It is extremely fast, and it only requires the use of a few megabytes of data to run. It can also be installed on nearly any comuter, whether it's the old Apple II (if you know what that looked like), or a three-day old Windows laptop.</p>
+  <p>-----------------------------------------</p>
+
+</div>
+
+<div id="Prices" class="tabcontent">
+  <h3>Prices</h3>
+  <p>Installation of DebLine OS is free. However, it will cost approximately $15.00 for someone to install DebLine OS onto your device, if you cannot do it yourself.</p>
+  <p>-----------------------------------------</p>
+</div>
+<div id="Stuff" class="tabcontent" style="text-align:center">
+  <h3>Get your computer stuff today!</h3>
+  <p>We also sell a veriety of helpful installers for a good price.</p>
+  <p>We sell installation medium, laptops and desktops (with DebLine OS pre-installed), computer components, and custom parts. </p>
+  <p>To see the list, click on the link:</p>
+      <a rel="page2" type="text/html" href="page2.html">Buy The Stuff</a>
+  <p>-----------------------------------------</p>
+</div>
+<script>
+function openUs(evt, usType) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(usType).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+  <title>The DebLine Industries Stuff Page</title>
+  
+  <h5>This Is The Page Where You Buy The Stuff</h5>
+  <h1>In order to purchase anything, you must fill out the Google Form.</h1>
+  <p>300 19th Street</p>
+  <p>Evanston, Wyoming</p>
+  <p>82930</p>
+  <p>The Google form is more efficient that using snail mail. It also helps Logan keep track of orders and such.</p>
+  <p>The link is provided below</p>
+  <a href="https://forms.gle/qTpyKBF7MAvAgHn39">Click<u> Here</u> To Fill Out The Form</a>
+  <p>------------------------------------------------------------------</p>
+  <img src="SystemInstallerDTS.png" type="image/png" alt="System Installer Device Prototype">
+  <p>This is the installation device. It is not currently finished. This is the prototype, before it is made and tested.</p>
+  <p>Product Number: 1</p>
+  <p>Purchase today! Cost: $5.00.</p>
+  <p>Shipping: $10.75 shipping (with UPS)</p>
+  <p>--------------------------------------------------------</p>
+  <h1>Computer Components and Parts</h1>
+  <h1>Note: The services we use involve a lot of Amazon. Additional fees may be required, for the purpose of small profit to the creators of this website.</h1>
+  <img src="CPUCoolerForStore.jpg" type="image/jpg" alt="Noctua NH-D15, Premium CPU Cooler with 2X NF-A15 PWM 140mm Fans (Brown)">
+  <p>Noctua NH-D15, Premium CPU Cooler with 2X NF-A15 PWM 140mm Fans (Brown). Lightly used and in nearly pristine condition</p>
+  <p>Product Number: 2</p>
+  <p>Cost: $70.00.</p>
+  <p>Shipping: Free shipping, arrives in about six days from order date.</p>
+  <p>Only seven left in stock, as of January 13, 2021, at 2:48 PM MST</p>
+  <p>-----------------------------------------------------------</p>
+  <img src="BetterCPUFanForStore.jpg" type="image/jpg" alt="Cooler Master MasterAir MA620M Dual Tower ARGB Cooler, 6 CDC 2.0 Heatpipes, SF120R Fan, Hexagon Strip, RGB lighting for AMD Ryzen/Intel LGA1151">
+  <p>Cooler Master MasterAir MA620M Dual Tower ARGB Cooler, 6 CDC 2.0 Heatpipes, SF120R Fan, Hexagon Strip, RGB lighting for AMD Ryzen/Intel LGA1151</p>
+  <p>Product Number: 3</p>
+  <p>Cost: $115.00</p>
+  <p>Add Amazon 4-Year Protection Plan: $14.99</p>
+  <p>Shipping: Free shipping, arrives in about six days from order date.</p>
+  <p>In stock as of Januray 13, 2021, at 10:27 AM MST</p>
+  <p>---------------------------------------------------------</p>
+  <img src="Ryzen9CoreForStore.jpg" type="image/jpg" alt="AMD-Ryzen 9 5940X 4th Generation 16-core Desktop Processor (No Cooler), 32-Threads, 3.4 to 4.9 GHz, Socket AM4, Zen 3 Core Architecture, with Mytrix HDMI Cable">
+  <p>AMD-Ryzen 9 5940X 4th Generation 16-core Desktop Processor (No Cooler), 32-Threads, 3.4 to 4.9 GHz, Socket AM4, Zen 3 Core Architecture, with Mytrix HDMI Cable</p>
+  <p>Product Number: 4</p>
+  <p>Cost: $1,305</p>
+  <p>Shipping: Free shipping, arrives in about six days from order date.</p>
+  <p>In stock as of January 13, 2021, at 10:51 AM MST</p>
+  <p>----------------------------------------------------</p>
+  <img src="MotherboardForStore.jpg" type="image/jpg" alt="GIGABYTE Z390 UD, Intel LGA1151/Z390/ATX/M.2/Realtek ALC887/Realtek 8118 Gaming LAN/HDMI/Gaming Motherboard">
+  <p>GIGABYTE Z390 UD, Intel LGA1151/Z390/ATX/M.2/Realtek ALC887/Realtek 8118 Gaming LAN/HDMI/Gaming Motherboard</p>
+  <p>Product Number: 5</p>
+  <p>Cost: $125.00</p>
+  <p>Shipping: Free shipping, arrives in about six days from order date.</p>
+  <p>In stock, as of January 13, 2020, at 10:56 AM MST</p>
+  <p>-------------------------------------------------------</p>
+  <img src="HDDForStore.jpg" type="image/jpg" alt="Western Digital 1TB WD Blue PC Hard Drive - 7200 RPM Class, SATA 6 Gb/s, , 64 MB Cache, 3.5 inch - WD10EZEX">
+  <p>Western Digital 1TB WD Blue PC Hard Drive - 7200 RPM Class, SATA 6 Gb/s, 64 MB Cache, 3.5" - WD10EZEX</p>
+  <p>Product Number: 6</p>
+  <p>Cost: $50.00</p>
+  <p>Shipping: Free shipping, arrives in about six days from order date.</p>
+  <p>In stock as of January 13, 2020, at 11:04 AM MST</p>
+  <p>------------------------------------------------------</p>
+  <nav>
+  <ul>
+    <li><a rel="page1" type="text/html" href="page1.html">Go Back To The Homepage</a></li>
+    <li><a rel="page3" type="text/html" href="page3.html">Learn About Our Founder</a></li>
+    <li><a rel="page4" type="text/html" href="page4.html">About WADCS and MSC</a></li>
+  </ul>
+</nav>
+  </body>
+</html>

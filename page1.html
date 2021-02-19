@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+</head>
+<body>
+<div class="tab" style="text-align:center">
+  <button class="tablinks" onclick="openUs(event, 'WhoWeAre')"><center>Who We Are</center></button>
+  <button class="tablinks" onclick="openUs(event, 'Stuff')">Computer Stuff</button>
+  <button class="tablinks" onclick="openUs(event,'theFounder')">About The Founder</button>
+<button class="tablinks" onClick="openUs(event,'Services')">Services</button>
+<button class="tablinks" onClick="openUs(event,'Contact')">Contact Us</button>
+<button class="tablinks" onClick="openUs(event,'Systems')">About WADCS and MSC</button>
+</div>
+<div id="Systems" class='tabcontent'>
+  <h3>WADCS and MSC</h3>
+  <p>WADCS is the connection system for DebLine OS. MSC is the processing center for the broadband.</p>
+  <a rel="page4" type="text/html" href="page4.html">Click here for more information.</a>
+  <p>-----------------------------------------</p>
+</div>
+<div id="Contact" class="tabcontent">
+  <h3>Contact Us</h3>
+  <p>Logan's Contact Information: +1 (307) 679-1893</p>
+  <p>Logan's Address: 300 19th Street, Evanston, Wyoming, 82930</p>
+  <p>-----------------------------------------</p>
+</div>
+<div id="Services" class="tabcontent">
+  <h3>Services</h3>
+  <p>$15.00 for a complete installation of DebLine OS onto your device.</p>
+  <p>$15.00 an hour for repairs and upgrades.</p>
+  <p>-----------------------------------------</p>
+</div>
+
+
+<div id="theFounder" class="tabcontent">
+  <h3>About The Founder</h3>
+  <p>The Founder's name is Logan Alldredge. He was sixteen years old when he started the devlopment of DebLine OS.</p>
+  <p>Click on the following link to see more.</p>
+  <a rel="page3" type="text/html" href="page3.html">Click Here</a>
+  <p>-----------------------------------------</p>
+  </div>
+<div id="WhoWeAre" class="tabcontent">
+  <h3>Who We Are</h3>
+  <p>DebLine Industries is known for it's creation of the phenominal data transfer system (DTS), known as HighLight. HighLight DTS 1 uses what is called a quantum supersystem to simultaneously send and recieve data to and from individual systems. It is a satellite, as such technology would overheat if it were centered on Earth, rather than in the cold vacuum of space. It's command station is a computer that utilizes a system called DebLine OS.</p>
+  <p>DebLine OS is a Linux-based computer system that utilizes both software and graphics. It is extremely fast, and it only requires the use of a few megabytes of data to run. It can also be installed on nearly any comuter, whether it's the old Apple II (if you know what that looked like), or a three-day old Windows laptop.</p>
+  <p>-----------------------------------------</p>
+
+</div>
+
+<div id="Prices" class="tabcontent">
+  <h3>Prices</h3>
+  <p>Installation of DebLine OS is free. However, it will cost approximately $15.00 for someone to install DebLine OS onto your device, if you cannot do it yourself.</p>
+  <p>-----------------------------------------</p>
+</div>
+<div id="Stuff" class="tabcontent" style="text-align:center">
+  <h3>Get your computer stuff today!</h3>
+  <p>We also sell a veriety of helpful installers for a good price.</p>
+  <p>We sell installation medium, laptops and desktops (with DebLine OS pre-installed), computer components, and custom parts. </p>
+  <p>To see the list, click on the link:</p>
+      <a rel="page2" type="text/html" href="page2.html">Buy The Stuff</a>
+  <p>-----------------------------------------</p>
+</div>
+<script>
+function openUs(evt, usType) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(usType).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+    <title>Initial DebLine OS Installations</title>
+    
+    <h4>DebLine Industries</h4>
+    <h5>The Best Computer Industry You've Ever Met</h5>
+    <p>-------------------------------------------------</p>
+    <p>Programming your computers since 2014</p>
+    <p>The only Linux-based computer that integrates Windows 10 and Debian Linux simultaneously. Flawless and fast, little labor required.</p>
+    <p>Integrates 5GHz WiFi and Wired Air-Data Computer System (WADCS) to connect devices to MSC (Main-System Central) quickly with little to no lag, no matter how old or small your device is.</p>
+    <p>------------------------------------------------</p>
+    <nav>
+  <ul>
+    <li><a rel="page2" type="text/html" href="page2.html">Buy The Stuff</a></li>
+    <li><a rel="page3" type="text/html" href="page3.html">Learn About Our Founder</a></li>
+    <li><a rel="page4" type="text/html" href="page4.html">About WADCS and MSC</a></li>
+  </ul>
+</nav>
+  </body>
+  
+</html>

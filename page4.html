@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+</head>
+  <body>
+  <div class="tab" style="text-align:center">
+  <button class="tablinks" onclick="openUs(event, 'WhoWeAre')"><center>Who We Are</center></button>
+  <button class="tablinks" onclick="openUs(event, 'Stuff')">Computer Stuff</button>
+  <button class="tablinks" onclick="openUs(event,'theFounder')">About The Founder</button>
+<button class="tablinks" onClick="openUs(event,'Services')">Services</button>
+<button class="tablinks" onClick="openUs(event,'Contact')">Contact Us</button>
+<button class="tablinks" onClick="openUs(event,'Systems')">About WADCS and MSC</button>
+</div>
+<div id="Systems" class='tabcontent'>
+  <h3>WADCS and MSC</h3>
+  <p>WADCS is the connection system for DebLine OS. MSC is the processing center for the broadband.</p>
+  <a rel="page4" type="text/html" href="page4.html">Click here for more information.</a>
+  <p>-----------------------------------------</p>
+</div>
+<div id="Contact" class="tabcontent">
+  <h3>Contact Us</h3>
+  <p>Logan's Contact Information: +1 (307) 679-1893</p>
+  <p>Logan's Address: 300 19th Street, Evanston, Wyoming, 82930</p>
+  <p>-----------------------------------------</p>
+</div>
+<div id="Services" class="tabcontent">
+  <h3>Services</h3>
+  <p>$15.00 for a complete installation of DebLine OS onto your device.</p>
+  <p>$15.00 an hour for repairs and upgrades.</p>
+  <p>-----------------------------------------</p>
+</div>
+
+
+<div id="theFounder" class="tabcontent">
+  <h3>About The Founder</h3>
+  <p>The Founder's name is Logan Alldredge. He was sixteen years old when he started the devlopment of DebLine OS.</p>
+  <p>Click on the following link to see more.</p>
+  <a rel="page3" type="text/html" href="page3.html">Click Here</a>
+  <p>-----------------------------------------</p>
+  </div>
+<div id="WhoWeAre" class="tabcontent">
+  <h3>Who We Are</h3>
+  <p>DebLine Industries is known for it's creation of the phenominal data transfer system (DTS), known as HighLight. HighLight DTS 1 uses what is called a quantum supersystem to simultaneously send and recieve data to and from individual systems. It is a satellite, as such technology would overheat if it were centered on Earth, rather than in the cold vacuum of space. It's command station is a computer that utilizes a system called DebLine OS.</p>
+  <p>DebLine OS is a Linux-based computer system that utilizes both software and graphics. It is extremely fast, and it only requires the use of a few megabytes of data to run. It can also be installed on nearly any comuter, whether it's the old Apple II (if you know what that looked like), or a three-day old Windows laptop.</p>
+  <p>-----------------------------------------</p>
+
+</div>
+
+<div id="Prices" class="tabcontent">
+  <h3>Prices</h3>
+  <p>Installation of DebLine OS is free. However, it will cost approximately $15.00 for someone to install DebLine OS onto your device, if you cannot do it yourself.</p>
+  <p>-----------------------------------------</p>
+</div>
+<div id="Stuff" class="tabcontent" style="text-align:center">
+  <h3>Get your computer stuff today!</h3>
+  <p>We also sell a veriety of helpful installers for a good price.</p>
+  <p>We sell installation medium, laptops and desktops (with DebLine OS pre-installed), computer components, and custom parts. </p>
+  <p>To see the list, click on the link:</p>
+      <a rel="page2" type="text/html" href="page2.html">Buy The Stuff</a>
+  <p>-----------------------------------------</p>
+</div>
+<script>
+function openUs(evt, usType) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(usType).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+<h1>Wired Air-Data Computer System</h1>
+<p>WADCS</p>
+<p>-------------------------------------------------------</p>
+<p>WADCS is, essentially, the modem that connects your device to the computer center, the place where the developer upgrades and updates DebLine OS, and where all of the data is stored. If your device has wireless connections, for both WiFi and Bluetooth, you can connect to the modem in order to transfer data. If it does not, you can use a USB cable, or an Ethernet cable, or even a Dial-Up phone line wire.</p>
+<p>However, WADCS is much faster, and more effecient than, say, the average fifth generation (5G) broadband cellular networks</p>
+<p>Instead of using a wireless broadband network attached to a few pieces of metal, WADCS uitlizes quantum technology. A supercomputer, a quantum computer if you will, that can calculate both zeroes and ones simultaneously is the central core for all of the operations. This quantum computer is called Q2. Every Q2 unit has an additional sequence at the end of it's name. For example, the first sucessful Q2 unit was Q2-1A. Each Q2 unit has a database of nearly ten exabytes (10000 petabytes, 10000000 terrabytes). This quantum computer is connected to a transmittal station, to transmit and recieve the broadband data. This data is sent to the MSC, which send it to a modem. The modem, located at your nearest telephone pole, recieves the broadband, and directs it to your WADCS center, which should be wired to an Ethernet port, in your wall.</p>
+<p>----------------------------------------------------------</p>
+<h1>Main-System Central</h1>
+<p>MSC</p>
+<p>----------------------------------</p>
+<p>MSC is the center of computations. It is the big computer. The one that processes all of the data sent to and recieved from all devices on the WADCS network. It is also a quantum computer, yet, it is not nearly as advanced as the Q2, the quantum computer centered in space to keep it cooled. This quantum computer is called Q3. Each Q3 unit has a sequence at the end. The first Q3 unit was called Q3-1A. Like Q2-1A, it was centered in space.</p>
+<p>------------------------------------------------</p>
+<p>The first MSC center, however, was a mainframe computer centered on Earth. It was designed using a similar design as Google used, for user storage. It was efficient for mass storage. The system that connected to it was a Lenovo Legion Tower 5 with a 10th Generation Intel i5-10400F Core, 4.30 GHz Processor, GeForce GTX 1650 Graphics, 64GB+ RAM, 2TB SSD + 8TB HDD, with Windows 10 Pro.</p>
+
+
+
+<li><a rel="page1" type="text/html" href="page1.html">Go Back To The Homepage</a></li>
+    <li><a rel="page3" type="text/html" href="page3.html">Learn About Our Founder</a></li>
+    <li><a rel="page2" type="text/html" href="page2.html">Buy The Stuff</a></li>
+    
+  </body>
+  
+</html>
